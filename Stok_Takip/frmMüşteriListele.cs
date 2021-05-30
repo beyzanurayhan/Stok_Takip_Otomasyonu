@@ -57,13 +57,13 @@ namespace Stok_Takip
             daset.Tables["müşteri"].Clear();
             Kayıt_Göster();
             MessageBox.Show("Müşteri kaydı güncellendi.");
-            foreach (Control item in this.Controls)
-            {
-                if (item is TextBox)
-                {
-                    item.Text = " ";
-                }
-            }
+            //foreach (Control item in this.Controls)
+            //{
+            //    if (item is TextBox)
+            //    {
+            //        item.Text = " ";
+            //    }
+            //} 
         }
 
         private void btnSil_Click(object sender, EventArgs e)
